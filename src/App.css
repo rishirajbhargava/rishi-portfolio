@@ -92,16 +92,14 @@ header{
 
 .mobile-nav {
   align-items: center;
-  background: rgb(238, 238, 238);
-  backdrop-filter: blur(2px);
+  background: rgb(228, 228, 228);
+  box-shadow: 0 4px 20px 0 rgba(28, 31, 83, 0.15);
+  -webkit-backdrop-filter: blur( 2px );
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: fixed;
-  left:15px;
-  top:15px;
-  bottom: 15px;
-  right:15px;
+  inset:16px;
   gap: 2rem;
   text-align: center;
   transition: all .3s ease-in-out;
@@ -140,6 +138,7 @@ header{
 .mobile-nav ul{
   list-style: none;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap:2.5rem;
 }
@@ -147,13 +146,13 @@ header{
 .mobile-nav ul a{
   text-decoration: none;
   display: flex;
+  text-transform: uppercase;
   padding: .6rem 1rem;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: all .1s ease-out;
-  border-radius: 10px;
-  font-weight: 500;
-  color:rgb(42, 42, 42);
+  font-weight: 600;
+  color:rgb(40, 40, 40);
 }
 .mobile-nav  ul li a:hover{
   color:var(--blue);
@@ -162,7 +161,11 @@ header{
 }
 
 .mobile-nav li a i{
-  padding: .4rem 0.6rem;
+  display: none;
+  padding-top: .4rem;
+  padding-bottom: .6rem ;
+  padding-left: .6rem ;
+  padding-right: .6rem ;
   font-size: 1.1rem;
 }
 
@@ -172,24 +175,29 @@ header{
 .mobile-nav>div:nth-child(1){
   display: flex;
   align-items: center;
-  height: 80%;
+  height: 75%;
 }
 .mobile-nav>div:nth-child(2){
-  height: 20%;
+  height: 25%;
+  margin-top: 2rem;
   padding: 1rem;
 }
 .mobile-nav>div:nth-child(2) p{
   text-transform: uppercase;
-  margin: .5rem 0;
+  margin: 1rem 0;
   font-size: 0.9rem;
 }
 .nav-socials-links{
-  color:black;
+  color:rgb(40, 40, 40);
   text-decoration: none;
 }
+
+.nav-socials-links:active{
+  color:var(--blue);
+}
 .nav-socials-links i{
-  font-size: 1.1rem;
-  padding: 7px 12px;
+  font-size: 1.3rem;
+  padding: 7px 17px;
 }
 
 
@@ -828,7 +836,7 @@ button:hover{
     border-bottom: 2px solid black;
   }
   .content{
-    margin-top:3rem;
+    margin-top:2rem;
   }
 
   .mobile-menu{
@@ -937,7 +945,6 @@ button:hover{
   }
 
   .content{
-    margin-top: 2rem;
     width: 90%;
   }
   

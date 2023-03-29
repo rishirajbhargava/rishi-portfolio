@@ -52,13 +52,13 @@ const Header = () => {
                     <p>Get in touch.</p>
                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/rishirajbhargava/" className="nav-socials-links">
                         <i className="fa-brands fa-linkedin"></i></a>
-                    <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/rishirajbhargava/" className="nav-socials-links">
+                    <a aria-label="github" rel="noreferrer" target="_blank" href="https://www.github.com/rishirajbhargava/" className="nav-socials-links">
                         <i className="fa-brands fa-github"></i>
                     </a>
-                    <a aria-label="twitter" rel="noreferrer" target="_blank" href="https://github.com/rishirajbhargava/" className="nav-socials-links">
+                    <a aria-label="twitter" rel="noreferrer" target="_blank" href="https://www.twitter.com/rishiii_18/" className="nav-socials-links">
                         <i className="fa-brands fa-twitter"></i>
                     </a>
-                    <a aria-label="intagram" rel="noreferrer" target="_blank" href="https://github.com/rishirajbhargava/" className="nav-socials-links">
+                    <a aria-label="intagram" rel="noreferrer" target="_blank" href="https://www.instagram.com/rishii_018/" className="nav-socials-links">
                         <i className="fa-brands fa-instagram"></i>
                     </a>
                 </div>
