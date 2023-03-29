@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.394fe63b.css",
-    "main.js": "/static/js/main.59d38d93.js",
-    "static/media/pro3.png": "/static/media/pro3.74af65683484751eaa71.png",
-    "static/media/pro1.png": "/static/media/pro1.8ae630e415ace6956149.png",
-    "static/media/pro2.png": "/static/media/pro2.4f243e90302120ea97c8.png",
-    "static/media/profile.jpg": "/static/media/profile.75fc44f206bf6955a6cf.jpg",
-    "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
-    "static/media/react.png": "/static/media/react.3c1cca491037897328d6.png",
-    "static/media/waving-hand.png": "/static/media/waving-hand.1bae5fcfb51082b5c2b4.png",
-    "static/media/github.png": "/static/media/github.0d190006bbd50b0681b5.png",
-    "static/media/redux.png": "/static/media/redux.d171ebbdfb29ef0702ab.png",
-    "static/media/nodejs.png": "/static/media/nodejs.71da8e5dd61c2ff164f8.png",
-    "static/media/html.png": "/static/media/html.5139eb66b02855a1c137.png",
-    "static/media/css.png": "/static/media/css.5d3f585222f506795d53.png",
-    "static/media/js.png": "/static/media/js.60dbbe1569571db1eda7.png",
-    "index.html": "/index.html",
-    "main.394fe63b.css.map": "/static/css/main.394fe63b.css.map",
-    "main.59d38d93.js.map": "/static/js/main.59d38d93.js.map"
+    "main.css": "/rishi-portfolio/static/css/main.de4b7dcc.css",
+    "main.js": "/rishi-portfolio/static/js/main.c797c233.js",
+    "static/media/pro3.png": "/rishi-portfolio/static/media/pro3.74af65683484751eaa71.png",
+    "static/media/pro1.png": "/rishi-portfolio/static/media/pro1.8ae630e415ace6956149.png",
+    "static/media/pro2.png": "/rishi-portfolio/static/media/pro2.4f243e90302120ea97c8.png",
+    "static/media/profile.jpg": "/rishi-portfolio/static/media/profile.75fc44f206bf6955a6cf.jpg",
+    "static/media/mongodb.png": "/rishi-portfolio/static/media/mongodb.4f7af09e6354d51beec8.png",
+    "static/media/react.png": "/rishi-portfolio/static/media/react.3c1cca491037897328d6.png",
+    "static/media/waving-hand.png": "/rishi-portfolio/static/media/waving-hand.1bae5fcfb51082b5c2b4.png",
+    "static/media/github.png": "/rishi-portfolio/static/media/github.0d190006bbd50b0681b5.png",
+    "static/media/redux.png": "/rishi-portfolio/static/media/redux.d171ebbdfb29ef0702ab.png",
+    "static/media/nodejs.png": "/rishi-portfolio/static/media/nodejs.71da8e5dd61c2ff164f8.png",
+    "static/media/html.png": "/rishi-portfolio/static/media/html.5139eb66b02855a1c137.png",
+    "static/media/css.png": "/rishi-portfolio/static/media/css.5d3f585222f506795d53.png",
+    "static/media/js.png": "/rishi-portfolio/static/media/js.60dbbe1569571db1eda7.png",
+    "index.html": "/rishi-portfolio/index.html",
+    "main.de4b7dcc.css.map": "/rishi-portfolio/static/css/main.de4b7dcc.css.map",
+    "main.c797c233.js.map": "/rishi-portfolio/static/js/main.c797c233.js.map"
   },
   "entrypoints": [
-    "static/css/main.394fe63b.css",
-    "static/js/main.59d38d93.js"
+    "static/css/main.de4b7dcc.css",
+    "static/js/main.c797c233.js"
   ]
 }
