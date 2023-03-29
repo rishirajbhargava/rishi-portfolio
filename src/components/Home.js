@@ -12,9 +12,9 @@ import {motion as m} from "framer-motion"
 
 
 const Home = () => {
-    return <section id="home" className="hero" 
-    >
-        <div className="container">
+
+    return <section id="home" className="hero">
+        <div className="container" >
             <m.div className="content" 
             initial={{opacity:0, y:0}}
             animate={{opacity:1,y:50}}
@@ -47,7 +47,16 @@ const Home = () => {
                     </ul>
                 </div>
             </m.div>
+            <m.div initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }} 
+                className="scroll-down">
+                Scroll Down
+                <i class="fas fa-arrow-down"></i>
+            </m.div>
+            
         </div>
+        
     </section>
 }
 

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-// import {motion as m} from 'framer-motion';
+
 // import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 
@@ -8,6 +8,8 @@ import { useState } from "react";
 
 const Header = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+
 
 
     function handleChange() {
@@ -33,7 +35,11 @@ const Header = () => {
 
 
             <div className={isNavExpanded ? "mobile-nav open-menu" : "mobile-nav closed-menu"}>
+               
+               
+           
                 <div className="nav-menu-back-div">
+
                     <span onClick={() => {
                         setIsNavExpanded(!isNavExpanded);
 
@@ -47,7 +53,12 @@ const Header = () => {
                         <li onClick={handleChange}><a href="#projects"><i class="fa-solid fa-briefcase"></i>Projects</a></li>
                         <li onClick={handleChange}><a href="#contact"> <i class="fa-regular fa-id-badge"></i>Contact</a></li>
                     </ul>
+                   
                 </div>
+                
+
+
+                {/* nav socials */}
                 <div >
                     <p>Get in touch.</p>
                     <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/rishirajbhargava/" className="nav-socials-links">

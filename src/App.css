@@ -81,6 +81,16 @@ header{
   padding: 15px;
 }
 
+
+
+.scroll-down i{
+  height:30px;
+  width: 20px;
+}
+
+
+
+
 .loader{
   width: 100%;
   height: 100vh;
@@ -94,7 +104,6 @@ header{
   align-items: center;
   background: rgb(228, 228, 228);
   box-shadow: 0 4px 20px 0 rgba(28, 31, 83, 0.15);
-  -webkit-backdrop-filter: blur( 2px );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,6 +233,32 @@ header{
   justify-content: center;
   margin:5vh auto;
 
+}
+
+.scroll-down{
+  animation: MoveUpDown 1.3s linear infinite;
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+  font-weight: 600;
+  color:rgb(145, 145, 145);
+  z-index: 9999;
+}
+
+@keyframes MoveUpDown {
+  0%,100%{
+    bottom:30px;
+  }
+  50%{
+    bottom: 40px;
+  }
+  
+}
+
+.scroll-down i{
+ padding: 10px 15px;
+ color:rgb(145, 145, 145);
+ font-size: 1.2rem;
 }
 
 .content {
@@ -801,6 +836,10 @@ button:hover{
 
   .projects-content{
     align-items: center;
+  }
+
+  .scroll-down{
+    display: none;
   }
 
 
