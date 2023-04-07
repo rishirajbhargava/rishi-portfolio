@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rishi-portfolio/static/css/main.de4b7dcc.css",
-    "main.js": "/rishi-portfolio/static/js/main.70c7bff5.js",
+    "main.css": "/rishi-portfolio/static/css/main.8cd5ce7d.css",
+    "main.js": "/rishi-portfolio/static/js/main.2a2324c4.js",
     "static/media/pro3.png": "/rishi-portfolio/static/media/pro3.74af65683484751eaa71.png",
     "static/media/pro1.png": "/rishi-portfolio/static/media/pro1.8ae630e415ace6956149.png",
     "static/media/pro2.png": "/rishi-portfolio/static/media/pro2.4f243e90302120ea97c8.png",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/rishi-portfolio/static/media/css.5d3f585222f506795d53.png",
     "static/media/js.png": "/rishi-portfolio/static/media/js.60dbbe1569571db1eda7.png",
     "index.html": "/rishi-portfolio/index.html",
-    "main.de4b7dcc.css.map": "/rishi-portfolio/static/css/main.de4b7dcc.css.map",
-    "main.70c7bff5.js.map": "/rishi-portfolio/static/js/main.70c7bff5.js.map"
+    "main.8cd5ce7d.css.map": "/rishi-portfolio/static/css/main.8cd5ce7d.css.map",
+    "main.2a2324c4.js.map": "/rishi-portfolio/static/js/main.2a2324c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.de4b7dcc.css",
-    "static/js/main.70c7bff5.js"
+    "static/css/main.8cd5ce7d.css",
+    "static/js/main.2a2324c4.js"
   ]
 }
