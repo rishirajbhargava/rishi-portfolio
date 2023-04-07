@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rishi-portfolio/static/css/main.243bf21a.css",
-    "main.js": "/rishi-portfolio/static/js/main.b08f79a7.js",
+    "main.css": "/rishi-portfolio/static/css/main.022038c1.css",
+    "main.js": "/rishi-portfolio/static/js/main.4acef22f.js",
     "static/media/pro3.png": "/rishi-portfolio/static/media/pro3.74af65683484751eaa71.png",
     "static/media/pro1.png": "/rishi-portfolio/static/media/pro1.8ae630e415ace6956149.png",
     "static/media/pro2.png": "/rishi-portfolio/static/media/pro2.4f243e90302120ea97c8.png",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/rishi-portfolio/static/media/css.5d3f585222f506795d53.png",
     "static/media/js.png": "/rishi-portfolio/static/media/js.60dbbe1569571db1eda7.png",
     "index.html": "/rishi-portfolio/index.html",
-    "main.243bf21a.css.map": "/rishi-portfolio/static/css/main.243bf21a.css.map",
-    "main.b08f79a7.js.map": "/rishi-portfolio/static/js/main.b08f79a7.js.map"
+    "main.022038c1.css.map": "/rishi-portfolio/static/css/main.022038c1.css.map",
+    "main.4acef22f.js.map": "/rishi-portfolio/static/js/main.4acef22f.js.map"
   },
   "entrypoints": [
-    "static/css/main.243bf21a.css",
-    "static/js/main.b08f79a7.js"
+    "static/css/main.022038c1.css",
+    "static/js/main.4acef22f.js"
   ]
 }
