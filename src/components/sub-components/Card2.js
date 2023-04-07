@@ -4,17 +4,27 @@
 const Card2 = () => {
     return <div className="about-card">
         <div>
-        <i className="fa-solid fa-laptop-code"></i>
+            <i className="fa-solid fa-laptop-code"></i>
         </div>
         <div>
             <h3>
-                Competitive Programming
+                Programming
             </h3>
         </div>
-        <div>
-            <p>Aut cupiditate expedita dolor eveniet a autem rerum ut dicta.
-             Exercitationem eum suscipit quo. Est fugiat ducimus aut saepe.
+        <div className="card-text">
+            <p>I'm passionate about data structures and algorithms & developing efficient solutions.
             </p>
+            <div className="card-sub-text">
+                <p>Languages & Tools</p>
+                <div >
+                    <span>C++</span>
+                    <span>JavaScirpt</span>
+                    <span>Python</span>
+                    <span>VSCode</span>
+
+                </div>
+
+            </div>
         </div>
 
     </div>

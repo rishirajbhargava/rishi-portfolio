@@ -5,10 +5,10 @@ const Footer = () => {
     
     return <div className="footer">
 
-        <div className="footer-content"  >
+        <div className="footer-content">
 
             <div>
-                <p>Copyright &copy; 2023. All rights are reserved.</p>
+                <p>&copy; 2023 | Rishi Raj Bhargava | All rights are reserved.</p>
             </div>
 
             <div className="footer-socials">

@@ -15,7 +15,7 @@ const Project2 = () => {
                     Sint exercitation id ullamco ut occaecat dolore ad cillum mollit.id ullamco ut occaecat dolore ad cillum mollit</p>
                    
                 <div className="links"><a target="_blank" href="https://www.google.com" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="https://www.google.com" rel="noreferrer">Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
+                    <a target="_blank" href="https://www.google.com" rel="noreferrer" >Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
                 </div>
                 <div className="tech"><span>#reactjs</span> <span>#tailwindcss</span><span>#typescript</span></div>
                 

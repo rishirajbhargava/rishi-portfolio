@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import { ScaleLoader } from "react-spinners";
+import { HashLoader } from "react-spinners";
 import NotFound from "./components/NotFound";
 
 
@@ -22,7 +22,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },1500)
+    },2000)
   },[])
 
 
@@ -30,7 +30,8 @@ function App() {
   const override = {
     "display": "flex",
     "align-items":"center",
-    "justify-content":"center"
+    "justify-content":"center",
+  
     };
 
 
@@ -38,16 +39,15 @@ function App() {
   return (
     <Router>
        <Routes>
-       <Route path='/' element={
+       <Route path='/rishi-portfolio' element={
           <div className="App">
             {
             loading ? <div className="loader">
-                <ScaleLoader
-                color={"#000"}
+                <HashLoader
+                color={"#7E7E7E"}
                 loading={loading}
                 cssOverride={override}
-                height={15}
-                width={3}
+                size={30}
                 aria-label="Loading Spinner"
                 data-testid="loader"
                 />

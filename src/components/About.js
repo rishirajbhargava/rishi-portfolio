@@ -12,9 +12,9 @@ const About= () => {
                     <h2>Pushing the limits of what's<br /> possible.</h2>
                 </div>
                 <div className="about-cards">
+                    <Card3/>
                     <Card/>
                     <Card2/>
-                    <Card3/>
                 </div>
 
             </div>

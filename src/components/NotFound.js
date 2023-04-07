@@ -36,7 +36,7 @@ background-color:black;
 
 const NotFoundPage = () => {
   const handleGoHomeClick = () => {
-    window.location.href = "/";
+    window.location.href = "/rishi-portfolio";
   };
 
   return (

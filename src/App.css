@@ -102,7 +102,10 @@ header{
 
 .mobile-nav {
   align-items: center;
-  background: rgb(228, 228, 228);
+  background: rgb(224, 224, 224);
+  /* background: linear-gradient(90deg,
+  #8e9eab,
+  #dde4e6); */
   box-shadow: 0 4px 20px 0 rgba(28, 31, 83, 0.15);
   display: flex;
   flex-direction: column;
@@ -115,19 +118,6 @@ header{
   z-index: 300;
 }
 
-/* .nav-menu-back-div:before{
-  content: "";
-  position: absolute;
-  top: 40%;
-  bottom: 0;
-  right: 0;
-  left: 60%;
-  z-index: -1;
-  width: 914px;
-  background: #f69c9c;
-  transform: skew(291deg);
-  transform-origin: right;
-} */
 
 .mobile-nav span{
   cursor: pointer;
@@ -162,6 +152,7 @@ header{
   transition: all .1s ease-out;
   font-weight: 600;
   color:rgb(40, 40, 40);
+  /* color:rgb(255, 255, 255); */
 }
 .mobile-nav  ul li a:hover{
   color:var(--blue);
@@ -242,7 +233,7 @@ header{
   bottom: 30px;
   font-weight: 600;
   color:rgb(145, 145, 145);
-  z-index: 9999;
+  z-index: 180;
 }
 
 @keyframes MoveUpDown {
@@ -256,7 +247,7 @@ header{
 }
 
 .scroll-down i{
- padding: 10px 15px;
+ padding: 10px 10px;
  color:rgb(145, 145, 145);
  font-size: 1.2rem;
 }
@@ -336,7 +327,7 @@ header{
 }
 
 .social_links {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: black;
   
 }
@@ -416,26 +407,64 @@ header{
   gap:2rem;
 }
 
-.about-card{
-  width:500px;
-  padding: 2rem;
-  /* box-shadow: 0 0 2px rgba(0, 0, 0, .1); */
-}
 
-.about-card i{
-  font-size: 3.5rem;
-  margin:2rem 0;
 
-}
-.about-card p{
-  margin-top:2rem;
-  font-size: .9rem;
-}
 
-.about-card:hover{
-  transform: scale(1.01);
-  box-shadow: 0 0 2px rgba(0, 0, 0, .1);
-}
+  /* CARD CSS */
+
+  .about-card{
+    width:500px;
+    padding: 2rem;
+    /* box-shadow: 0 0 2px rgba(0, 0, 0, .1); */
+  }
+  
+  .about-card i{
+    font-size: 3.5rem;
+    margin:2rem 0;
+  
+  }
+  .about-card p{
+    margin-top:2rem;
+    font-size: .9rem;
+  }
+  
+  .about-card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+  }
+  
+  .about-card:hover i{
+    color:var(--blue);
+  }
+  .about-card:hover h3{
+    color:var(--blue);
+  }
+
+  .card-sub-text p{
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2px;
+  }
+
+  .card-sub-text div{
+    display: flex;
+  
+    gap:7px;
+  }
+  
+  .card-sub-text span{
+    font-weight: 600;
+    padding-right: 5px;
+    font-size: .9rem;
+    color:var(--blue);
+  }
+  
+
+
+
+  
+
+  
 
 
 /* PROJECT SECTION  CSS */
@@ -718,14 +747,17 @@ button:hover{
 /* FOOTER */
 
 .footer {
-  min-height: 8vh;
+  min-height: 13vh;
   background-color: rgb(47, 47, 47);
   display: flex;
-  padding: 0 3rem;
+  padding: 1rem 0;
   align-items: center;
 }
 
 .footer-content{
+  flex-direction: column-reverse;
+  align-items: center;
+  gap:.5rem;
   display: flex;
   width: 100%;
   justify-content:space-between;
@@ -733,6 +765,8 @@ button:hover{
 
 .footer-content p{
   color:white;
+  text-align: center;
+  font-size: .9rem;
 }
 
 
@@ -745,7 +779,7 @@ button:hover{
 
 .footer-socials i {
   color: rgb(220, 220, 220);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 
@@ -876,6 +910,9 @@ button:hover{
   }
   .content{
     margin-top:2rem;
+  }
+  .hero-main{
+    gap:3rem;
   }
 
   .mobile-menu{
@@ -1074,11 +1111,14 @@ button:hover{
 
 
   .footer{
-    padding: 1 1.5rem ;
+    padding: 1rem 0 ;
+  }
+  .footer-content{
+    gap:0.5rem;
   }
 
   .footer-socials i{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
 

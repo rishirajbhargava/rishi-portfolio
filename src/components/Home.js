@@ -8,6 +8,7 @@ import git from "../static/skills-logos/github.png";
 import js from "../static/skills-logos/js.png";
 import react from "../static/skills-logos/react.png";
 
+
 import {motion as m} from "framer-motion"
 
 
@@ -18,10 +19,11 @@ const Home = () => {
             <m.div className="content" 
             initial={{opacity:0, y:0}}
             animate={{opacity:1,y:50}}
-                transition={{duration:1}}>
+             transition={{duration:1}}>
+
                 <div className="hero-main">
                     <div className="hero-text">
-                        <h1>Full Stack MERN Developer &nbsp;  <img src={wavingHand} className="waving-hand" alt="waving-hand" /></h1>
+                        <h1>Full Stack <br/> Developer &nbsp;  <img src={wavingHand} className="waving-hand" alt="waving-hand" /></h1>
                         <p>Hi, I'm Rishi Raj Bhargava. A passionate Full Stack MERN Developer based in Lucknow, India. 📍</p>
                         <span><a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/rishirajbhargava/" className="social_links">
                             <i className="fa-brands fa-linkedin"></i></a>
@@ -47,13 +49,17 @@ const Home = () => {
                     </ul>
                 </div>
             </m.div>
-            <m.div initial="hidden"
+          
+            <a href="#about"><m.div initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }} 
                 className="scroll-down">
                 Scroll Down
+                
                 <i class="fas fa-arrow-down"></i>
             </m.div>
+            </a>
+            
             
         </div>
         
