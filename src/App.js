@@ -39,7 +39,7 @@ function App() {
   return (
     <Router>
        <Routes>
-       <Route path='/rishi-portfolio' element={
+       <Route path='/' element={
           <div className="App">
             {
             loading ? <div className="loader">
