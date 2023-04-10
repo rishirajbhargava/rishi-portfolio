@@ -2,17 +2,16 @@
 import pro_1 from "../../static/project/pro3.png"
 // import Tilt from "react-parallax-tilt"
 
-const Project3 = () => {
+const Project3 = (props) => {
 
-    return <div className="pro pro_1">
+    return <div className="pro pro_1" onClick={()=>props.setTrigger(true)}>
 
             <div className="pro-img">
                 <a href="#home"> <img src={pro_1} alt="project_1_image"></img></a>
             </div>
             <div className="pro-text">
                 <h4>E-commerce Website</h4>
-                <p>Consequat ullamco ut occaecat dolore ad cillum.
-                    Sint exercitation id ullamco ut occaecat dolore ad cillum mollit.id ullamco ut occaecat dolore ad cillum mollit</p>
+                <p>The website features intuitive navigation and search capabilities, along with a wide range of products.</p>
                    
                 <div className="links"><a target="_blank" href="https://www.google.com" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
                     <a target="_blank" href="https://www.google.com" rel="noreferrer">Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>

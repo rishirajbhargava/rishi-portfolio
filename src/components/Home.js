@@ -23,11 +23,12 @@ const Home = () => {
 
                 <div className="hero-main">
                     <div className="hero-text">
-                        <h1>Full Stack <br/> Developer &nbsp;  <img src={wavingHand} className="waving-hand" alt="waving-hand" /></h1>
+                       <h1>Full Stack <br/> Developer &nbsp;  <img src={wavingHand} className="waving-hand" alt="waving-hand" /> </h1> 
+                        
                         <p>Hi, I'm Rishi Raj Bhargava. A passionate Full Stack MERN Developer based in Lucknow, India. 📍</p>
                         <span><a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/rishirajbhargava/" className="social_links">
-                            <i className="fa-brands fa-linkedin"></i></a>
-                            <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/rishirajbhargava/" className="social_links social-link-github">
+                          <i className="fa-brands fa-linkedin"></i></a>
+                            <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/rishirajbhargava/" className="social_links">
                             <i className="fa-brands fa-github"></i></a></span>
                     </div>
                     <div className="hero-img"></div>

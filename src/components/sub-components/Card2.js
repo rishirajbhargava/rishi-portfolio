@@ -14,11 +14,12 @@ const Card2 = () => {
         <div className="card-text">
             <p>I'm passionate about data structures and algorithms & developing efficient solutions.
             </p>
+            
             <div className="card-sub-text">
                 <p>Languages & Tools</p>
                 <div >
                     <span>C++</span>
-                    <span>JavaScirpt</span>
+                    <span>JavaScript</span>
                     <span>Python</span>
                     <span>VSCode</span>
 
