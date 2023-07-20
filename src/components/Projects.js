@@ -29,6 +29,7 @@ const Projects = () => {
                 </div>
                 <div className="projects-grid">
                     <Project1 setTrigger={setTrigger1}/>
+                    <Project2 setTrigger={setTrigger2}/>
                     <Project3 setTrigger={setTrigger3}/>
 
                 </div>
