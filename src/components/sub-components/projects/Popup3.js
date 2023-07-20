@@ -11,7 +11,7 @@ function Popup3(props) {
                 </div>
                 <div className="project-popup-text">
                     <h4>E-commerce Website</h4>
-                    <p> The website features intuitive navigation and search capabilities, along with a wide range of products. With its reusable components and efficient data management, the website offers a seamless shopping experience. Built on a secure and scalable backend technology stack, it demonstrates my skills as a web developer.</p>
+                    <p>The website features intuitive navigation and search capabilities, along with a wide range of products. With its reusable components and efficient data management, the website offers a seamless shopping experience. Built on a secure and scalable backend technology stack, it demonstrates my skills as a web developer.</p>
 
                     <div className="card-sub-text">
                         <p>Tools & Frameworks</p>

@@ -12,8 +12,6 @@ const Project2 = (props) => {
                 <h4>DSA Vault </h4>
                 <p>DSA vault is a full stack application where one can solve various types of DSA problems from various platforms.
                 User can track their progress and can also see the progress of other users. 
-
-
                 </p>
                    
                 <div className="links"><a target="_blank" href="https://github.com/rishirajbhargava/dsa-vault" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
