@@ -11,7 +11,7 @@ const Project1 = (props) => {
             </div>
             <div className="pro-text">
                 <h4>Blog App 📝</h4>
-                <p>Blog Api in a website where one can share blogs and read blog of other people.
+                <p>Blog App in a website where one can share blogs and read blog of other people.
                     It has features like authentication, create, update or delete posts.</p>
 
                

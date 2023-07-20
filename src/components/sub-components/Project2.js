@@ -9,13 +9,16 @@ const Project2 = (props) => {
                 <a href="#home"> <img src={pro_2} alt="project_1_image"></img></a>
             </div>
             <div className="pro-text">
-                <h4>Gym Fitness App </h4>
-                <p>A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.</p>
+                <h4>DSA Vault </h4>
+                <p>DSA vault is a full stack application where one can solve various types of DSA problems from various platforms.
+                User can track their progress and can also see the progress of other users.
+
+                </p>
                    
                 <div className="links"><a target="_blank" href="https://www.google.com" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="https://www.google.com" rel="noreferrer" >Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
+                    <a target="_blank" href="https://www.google.com" rel="noreferrer">Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
                 </div>
-                <div className="tech"><span>#reactjs</span> <span>#tailwindcss</span><span>#typescript</span></div>
+                <div className="tech"><span>#reactjs</span> <span>#nodejs</span><span>#mongodb</span></div>
                 
             </div>
         </div>
