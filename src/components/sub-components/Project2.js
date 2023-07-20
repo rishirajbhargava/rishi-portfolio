@@ -16,8 +16,8 @@ const Project2 = (props) => {
 
                 </p>
                    
-                <div className="links"><a target="_blank" href="https://www.google.com" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="https://www.google.com" rel="noreferrer">Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
+                <div className="links"><a target="_blank" href="https://github.com/rishirajbhargava/dsa-vault" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="https://dsa-vault-frontend.onrender.com/" rel="noreferrer">Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
                 </div>
                 <div className="tech"><span>#reactjs</span> <span>#nodejs</span><span>#mongodb</span></div>
                 

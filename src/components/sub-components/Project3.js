@@ -1,6 +1,6 @@
 
 import pro_1 from "../../static/project/pro3.png"
-// import Tilt from "react-parallax-tilt"
+
 
 const Project3 = (props) => {
 
