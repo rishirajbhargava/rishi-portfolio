@@ -12,7 +12,7 @@ const Project3 = (props) => {
             <div className="pro-text">
                 <h4>E-commerce Website</h4>
                 <p>The website features intuitive navigation and search capabilities, along with a wide range of products.
-                    The website also facilitates the purchase of services such as shipping, inventory management, and post-sale customer support.</p>
+                The website also facilitates the purchase of products from the website.</p>
                    
                 <div className="links"><a target="_blank" href="https://www.google.com" rel="noreferrer">Code <i className="fa-brands fa-github"></i></a>
                     <a target="_blank" href="https://www.google.com" rel="noreferrer">Live Demo<i className="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
