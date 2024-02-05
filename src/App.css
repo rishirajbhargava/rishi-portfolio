@@ -732,10 +732,11 @@ header{
     height: 90%;
 }
 
-button {
+#send-button {
   font-family: 'Poppins', sans-serif;
   border: none;
   outline: none;
+  width: 135px;
   background-color:var(--blue);
   color: white;
   font-size: .85rem;
@@ -747,12 +748,38 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+#send-button:hover{
   background-color: rgb(19, 19, 218);
 }
-
+#send-button svg{
+  font-size: 30px;
+}
 .form-button span{
   padding-left: 8px;
+}
+
+#send-button:disabled{
+  background: #e7e8e9 !important;
+  color: #9fa3a9 !important;
+  cursor:not-allowed;
+}
+
+.spinner {
+  margin-left:5px;
+
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 

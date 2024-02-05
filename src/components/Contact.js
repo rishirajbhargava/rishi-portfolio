@@ -1,26 +1,28 @@
 
-import React, { useRef } from 'react';
+import React, { useRef , useState} from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { ReactComponent as Loader } from '../static/loader.svg'
 
-
-// const  {REACT_APP_SERVICE_ID,REACT_APP_TEMPLATE_ID,REACT_APP_PUBLIC_KEY} = process.env
 
 const Contact = () => {
 
     const form = useRef();
+    const [isSending, setIsSending] = useState(false);
+    const [isDisabled, setIsDisabled] = useState(false);
 
     const sendEmail = (e) => {
       e.preventDefault();
   
       emailjs.sendForm(
-        "service_k8uvlkm", 
+        "service_52iww9q", 
         "template_udgqhvv", 
          form.current, 
-       "E-A__ud6OYxEJ9Njz")
+        "E-A__ud6OYxEJ9Njz")
 
-    .then((result) => {
+    .then((e) => {
+        
         toast.success('Message Send!', {
             position: "top-right",
             autoClose: 5000,
@@ -31,9 +33,11 @@ const Contact = () => {
             progress: undefined,
             theme: "light",
             });
-            
+            setIsSending(false);
+            setIsDisabled(false);
             e.target.reset();
         }, (error) => {
+            
            
             toast.error('Unable to send the mesaage', {
                 position: "top-right",
@@ -45,8 +49,10 @@ const Contact = () => {
                 progress: undefined,
                 theme: "light",
             });
+            setIsSending(false);
+            setIsDisabled(false);
             console.log(error);
-            
+           
             e.target.reset();
         });
     };
@@ -93,7 +99,11 @@ const Contact = () => {
 
 
                         </div>
-                        <form className="contact-form" ref={form} onSubmit={sendEmail} >
+                        <form className="contact-form" ref={form} onSubmit={(e)=>{                         
+                            sendEmail(e);
+                            setIsSending(true);
+                            setIsDisabled(true);
+                        }} >
                             <div class="inputBox">
                                 <input className="input-area" type="text" name="user_name" required="required" />
                                 <span>Name</span>
@@ -114,7 +124,8 @@ const Contact = () => {
 
                             </div>
                             <div className="form-button">
-                                <button id="send-button" type="submit">Submit<span><i className="fa-solid fa-paper-plane"></i></span></button>
+                                
+                                <button id="send-button" type="submit" disabled={isDisabled} > { !isSending ?<> Submit <span> <i className="fa-solid fa-paper-plane"></i></span> </>:<>Sending.. <Loader className="spinner" /></>   }</button>
                             </div>
 
 
